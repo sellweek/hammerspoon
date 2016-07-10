@@ -13,3 +13,4 @@ hs.pathwatcher.new(os.getenv("HOME") .. "/.hammerspoon/", reloadConfig):start()
 hs.notify.new({title="Hammerspoon", informativeText="Config reloaded", autoWithdraw=true}):send()
 
 require("pmset")
+require("spotify")
